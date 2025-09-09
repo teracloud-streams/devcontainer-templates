@@ -1,45 +1,16 @@
+// More info: https://containers.dev/implementors/json_reference/
 {
-	"name": "Teracloud Streams 7.2.0.1 QSE",
-	"dockerComposeFile": "docker-compose.yml",
-	"service": "app",
-	"workspaceFolder": "/workspace",
-
-	// Configure tool-specific properties.
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	},
 	"customizations": {
-		// Configure properties specific to VS Code.
 		"vscode": {
-			"settings": {
-				"python.autoComplete.extraPaths": [
-					"/opt/teracloud/streams/?.?.?.?/doc/spl/operator/api/typings"
-				],
-				"python.analysis.extraPaths": [
-					"/opt/teracloud/streams/?.?.?.?/doc/spl/operator/api/typings"
-				],
-				"teracloud-streams.restApiUrl": "https://localhost:9714/streams/rest",
-				"teracloud-streams.environment.streamsInstallPath": "/opt/teracloud/streams/?.?.?.?",
-				"teracloud-streams.environment.toolkitPaths": [
-					"/opt/teracloud/streams/?.?.?.?/toolkits"
-				]
-			},
 			"extensions": [
-				"teracloud-aps.teracloud-streams"
+				"mads-hartmann.bash-ide-vscode",
+				"dbaeumer.vscode-eslint"
 			]
 		}
 	},
-
-	"forwardPorts": [8443, 9714],
-	"portsAttributes": {
-		"8443": {
-			"label": "Streams Web UI Console",
-			"protocol": "https"
-		},
-		"9714": {
-			"label": "Streams REST API",
-			"protocol": "https"
-		}
-	},
-
-	"otherPortsAttributes": {
-		"onAutoForward": "ignore"
-	}
+	"postCreateCommand": "npm install -g @devcontainers/cli"
 }

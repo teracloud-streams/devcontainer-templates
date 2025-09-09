@@ -1,0 +1,23 @@
+{
+    "id": "teracloud-streams",
+    "version": "0.1.0",
+    "name": "Teracloud Streams",
+    "description": "Teracloud Streams Dev Container Template",
+    "documentationURL": "https://github.com/teracloud-streams/devcontainer-templates/tree/main/src/teracloud-streams",
+    "licenseURL": "https://github.com/teracloud-streams/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "streamsVersion": {
+            "type": "string",
+            "description": "Teracloud Streams version:",
+            "proposals": [
+                "7.2.0"
+            ],
+            "default": "7.2.0"
+        }
+    },
+    "platforms": [
+        "x86_64"
+    ],
+    "publisher": "Teracloud Streams",
+    "keywords": ["real-time", "analytics", "platform"]
+}
