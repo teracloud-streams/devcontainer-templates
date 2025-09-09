@@ -6,7 +6,7 @@
 
 	// Configure tool-specific properties.
 	"customizations": {
-		// Configure properties specific to VS Code.
+		// Configure properties specific to VS Code
 		"vscode": {
 			"settings": {
 				"python.autoComplete.extraPaths": [
