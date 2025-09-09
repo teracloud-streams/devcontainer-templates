@@ -1,0 +1,7 @@
+services:
+  app:
+    image: teracloudaps/streams-qse:${templateOption:streamsVersion}
+    hostname: localhost
+
+    volumes:
+      - ..:/workspace:cached
