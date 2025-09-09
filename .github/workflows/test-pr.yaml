@@ -7,12 +7,15 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       templates: ${{ steps.filter.outputs.changes }}
+    permissions:
+      pull-requests: read
     steps:
       - uses: dorny/paths-filter@v2
         id: filter
         with:
           filters: |
-            streams: ./**/teracloud-streams/**
+            streams:
+              - './**/teracloud-streams/**''
 
   test:
     needs: [detect-changes]
