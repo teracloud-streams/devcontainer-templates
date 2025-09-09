@@ -15,7 +15,7 @@ The templates are located under `src/`
    * **NOTE**: A container runtime is required. See the System requirements section for more information.
 1. In VS Code, open the Command Palette (Click `View -> Command Palette...` or enter `Ctrl+Shift+P`)
 1. Type in and select `Dev Containers: New Dev Container...`
-1. Enter `ghcr.io/teracloud-streams/devcontainer-templates/teracloud-streams:latest` and select `Use as template...`\
+1. Enter `ghcr.io/teracloud-streams/devcontainer-templates/teracloud-streams:latest` and select `Use as template...`
 1. If prompted, click `Trust @undefined from Github`
 1. Enter a name for the container, if desired
 1. Click `Create Dev Container`
