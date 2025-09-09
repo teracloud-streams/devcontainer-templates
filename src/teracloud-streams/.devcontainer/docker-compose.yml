@@ -1,6 +1,6 @@
 services:
   app:
-    image: teracloudaps/streams-qse:latest
+    image: teracloudaps/streams-qse:${templateOption:streamsVersion}
     pull_policy: always
     hostname: localhost
 

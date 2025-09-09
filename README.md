@@ -1,6 +1,6 @@
-# Streams Dev Container
+# Streams Dev Container Template
 
-This dev container provides a full-fledged Teracloud Streams development and runtime environment.
+This repo contains a dev container template to provide a full-fledged Teracloud Streams development and runtime environment.
 
 The dev container utilizes the Teracloud Streams Quick Start Edition (QSE) and the Teracloud Streams VS Code extension.
 
@@ -11,5 +11,5 @@ The dev container utilizes the Teracloud Streams Quick Start Edition (QSE) and t
    1. **NOTE**: A container runtime is required. See the System requirements for more information.
 1. In VS Code, open the Command Palette (Click `View -> Command Palette...` or hit Ctrl+Shift+P)
 1. Type in and select `Dev Containers: New Dev Container...`
-1. Enter `https://github.com/teracloud-streams/streams-devcontainer` and select `Use as template...`
+1. Enter `https://ghcr.io/teracloud-streams/devcontainer-templates/teracloud-streams:latest` and select `Use as template...`
 1. Click `Create Dev Container`

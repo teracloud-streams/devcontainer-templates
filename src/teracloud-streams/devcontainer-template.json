@@ -8,15 +8,15 @@
     "options": {
         "streamsVersion": {
             "type": "string",
-            "description": "Teracloud Streams version:",
+            "description": "Teracloud Streams version",
             "proposals": [
-                "7.2.0"
+                "7.2.0.1"
             ],
-            "default": "7.2.0"
+            "default": "7.2.0.1"
         }
     },
     "platforms": [
-        "x86_64"
+        "SPL"
     ],
     "publisher": "Teracloud Streams",
     "keywords": ["real-time", "analytics", "platform"]
