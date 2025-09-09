@@ -1,0 +1,8 @@
+services:
+  app:
+    image: teracloudaps/streams-qse:latest
+    pull_policy: always
+    hostname: localhost
+
+    volumes:
+      - ..:/workspace:cached
