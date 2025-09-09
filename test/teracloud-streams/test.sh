@@ -3,8 +3,9 @@ cd $(dirname "$0")
 source test-utils.sh
 
 # Template specific tests
-check "distro" lsb_release -c
-check "greeting" [ $(cat /usr/local/etc/greeting.txt | grep hey) ]
+check "License" $HOME/LICENSE.txt
+check "Streams install" ls $STREAMS_INSTALL
+check "Hello world example" test -f helloworld
 
 # Report result
 reportResults
