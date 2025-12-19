@@ -1,6 +1,6 @@
 {
     "id": "teracloud-streams",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "name": "Teracloud Streams",
     "description": "Teracloud Streams Dev Container Template",
     "documentationURL": "https://github.com/teracloud-streams/devcontainer-templates/tree/main/src/teracloud-streams",
