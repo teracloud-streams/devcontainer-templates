@@ -7,7 +7,7 @@ Teracloud Streams Dev Container Template
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| streamsVersion | Teracloud Streams version | string | 7.2.0.2 |
+| streamsVersion | Teracloud Streams version | string | 7.2.1.0 |
 
 
 
